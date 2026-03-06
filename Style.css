@@ -1,0 +1,139 @@
+body {
+  background-color: #F7F4DC;
+  text-align: center;
+    font-family: "Berkshire Swash", serif;
+}
+
+
+header {
+	padding-top: 100%;
+	background-image: url(https://i.pinimg.com/736x/05/5e/5c/055e5cbe89365904fb6f7a2f4c6219a4.jpg);
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: 100% 100%;
+  	float: top;
+  	text-align: center;
+
+}
+
+h1 {
+  color: #85641B;
+  text-align: center;
+    font-family: "Berkshire Swash", serif;
+}
+
+h2 { 
+color:#85641B;
+text-align: center;
+  font-family: "Berkshire Swash", serif;
+}
+
+h3 {
+	color: #85641B;
+	text-align: center;
+   font-family: "Berkshire Swash", serif;
+}
+
+h4 {
+	color: #85641B;
+	text-align: center;
+    font-family: "Berkshire Swash", serif;
+}
+
+p {
+  color: #6E6E6E;
+  text-align: center;
+    font-family: "Berkshire Swash", serif;
+}
+
+/*w3s*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+    font-family: "Berkshire Swash", serif;
+}
+
+/* Style the side navigation */
+  .sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  text-align: center;
+  border-style: solid;
+  border-width: 10px;
+  border-color: black;
+    font-family: "Berkshire Swash", serif;
+}
+
+/* Side navigation links */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+    font-family: "Berkshire Swash", serif;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #424242;
+  color: #CFC37E;
+}
+
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+}
+
+/*Dropdown*/
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+.active {
+  background-color: #478CCC;
+  color: white;
+}
+
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.main {
+  margin-left: 250px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: black;
+}
+
+ul {
+   font-family: "Berkshire Swash", serif;
+}

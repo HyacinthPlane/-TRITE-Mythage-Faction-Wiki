@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+ <link rel="stylesheet" href="style.css">
+ <head>
+	<title>[TRITE] Mythage Fandom Wiki - Credits</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<style>
+		.img {
+			border-radius: 50%;
+		}
+	</style>
+ </head>
+<body>
+<header>
+</header>
+<div class="sidenav">
+	<a href="https://www.roblox.com/communities/13322715/Trite-Roleplay#!/about"><img src="https://static.wikia.nocookie.net/mythoverse/images/4/4b/Triteroleplay.png" alt="Triteroleplay"></a>
+<a href="https://discord.gg/RWCgEUXXN"><h1 style="color:white;">Mythage Fandom</h1></a>  <a href="index.html">-Home-</a>
+
+    <button class="dropdown-btn">-Trite Community-
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="triteTOS.html">Trite TOS</a>
+    <a href="factions.html">Notable Factions</a>
+    <a href="credits.html">Credits</a>
+  </div>
+  
+  <button class="dropdown-btn">-Lore-
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="mythagehistory.html">Mythage History</a>
+    <a href="theaether.html">The Aether</a>
+    <a href="#"></a>
+  </div>
+
+  <button class="dropdown-btn">-Worldbuilding-
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="patronsdeitiesfaiths.html">Patrons, Deities, & Faiths</a>
+    <a href="races.html">Races</a>
+    <a href="flora&fauna.html">Flora and Fauna</a>
+  </div>
+</div>
+
+	<div class="main">
+  <h2>Credits</h2>
+</div>
+
+  <script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
+</html>

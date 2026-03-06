@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+ <link rel="stylesheet" href="style.css">
+ <head>
+	<title>[TRITE] Mythage Fandom Wiki - TriteTOS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<style>
+		.img {
+			border-radius: 50%;
+		}
+	</style>
+ </head>
+<body>
+<header>
+</header>
+<div class="sidenav">
+	<a href="https://www.roblox.com/communities/13322715/Trite-Roleplay#!/about"><img src="https://static.wikia.nocookie.net/mythoverse/images/4/4b/Triteroleplay.png" alt="Triteroleplay"></a>
+<a href="https://discord.gg/RWCgEUXXN"><h1 style="color:white;">Mythage Fandom</h1></a>  <a href="index.html">-Home-</a>
+
+    <button class="dropdown-btn">-Trite Community-
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="triteTOS.html">Trite TOS</a>
+    <a href="factions.html">Notable Factions</a>
+    <a href="credits.html">Credits</a>
+  </div>
+  
+  <button class="dropdown-btn">-Lore-
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="mythagehistory.html">Mythage History</a>
+    <a href="theaether.html">The Aether</a>
+    <a href="#"></a>
+  </div>
+
+  <button class="dropdown-btn">-Worldbuilding-
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="patronsdeitiesfaiths.html">Patrons, Deities, & Faiths</a>
+    <a href="races.html">Races</a>
+    <a href="flora&fauna.html">Flora and Fauna</a>
+  </div>
+</div>
+
+	<div class="main">
+  <h2>The Nature of Aether</h2>
+  <p>To the scholars of today and previous documented records show that the Aether is not merely an energy source, but the raw, unrefined stuff of creation. Before the Fracture, it was locked away behind the cosmic firmament. When the rifts tore open during the fracture, it bled into the mundane world like water rushing into a sinking ship.</p>
+  <p>Aether is highly reactive, entropic, and violently opposed to being static. It naturally wants to change, mutate, and empower whatever it touches. In its purest form, near the center of a rift, it appears as an iridescent, heavy mist that shimmers with colors that don't quite exist in the natural spectrum.</p>
+
+  <h2>The Three States of Aether</h2>
+  <p><b>Over the last two millennia, humanity has categorized this cosmic radiation into three distinct forms:</b></p>
+  <p>Ambient Aether (The Weave): This is the invisible, thinned out magical atmosphere that covers the world far from the rifts. Mages and Arcanists draw upon this ambient energy, using sheer willpower, spoken incantations, and geometric runes to force it into specific shapes, like a fireball or a kinetic shield.</p>
+  <p>Crystallized Aether (Mana-quartz): When raw Aether pools in the earth beneath a rift, the immense dimensional pressure compresses it into glowing, physical crystals. It is incredibly volatile but stores vast amounts of power, used to forge magical steel, power fortress wards, and fuel the devastating siege engines.</p>
+  <p>Biological Aether (The Blight): Flesh and Aether are a dangerous mix. When a living creature is exposed to dense Aether for prolonged periods, the magic forcibly "upgrades" its host to survive the radiation. This is what caused the mutations. A normal wolf exposed to Biological Aether grows armored bone-plates and exhales frost; a human might go mad, their veins turning a glowing, necrotic blue as they warp into a Ghoul.</p>
+
+  <h2>Aether Burns</h2>
+  <p>Because Aether is alien to the human body, channeling it is physically destructive. While the Gods of the BF era bestowed power safely, Aether must be forced through a mortal nervous system.</p>
+  <p>Casting too much magic too quickly results in Aether-burn. The magic literally fries the user's nerves, turning their capillaries black and causing agonizing pain. The most powerful Archmages of the era often look haggard, their bodies scarred by glowing, fractured veins from decades of channeling forces meant for gods.</p>
+</div>
+
+  <script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
+</html>
